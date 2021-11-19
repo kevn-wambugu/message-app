@@ -1,0 +1,28 @@
+{
+  "name": "message-app",
+  "version": "1.0.0",
+  "description": "A reminder app that sends messages reminding me of upcoming matches",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "mongose": "*",
+    "mustache": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "twilio": "^3.70.0"
+  }
+}
